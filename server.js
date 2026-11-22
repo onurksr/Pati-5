@@ -1155,7 +1155,7 @@ io.on('connection', s => {
         artist,
         lang: payload.lang === 'en' ? 'en' : 'tr',
         genres: [genre, 'Karışık'],
-        decade: year >= 2020 ? '2020 ve sonrası' : year >= 2010 ? '2010'lar' : '2000'ler',
+        decade: year >= 2020 ? "2020 ve sonrası" : year >= 2010 ? "2010'lar" : "2000'ler",
         year,
         d: diff,
         pop: 'high'
