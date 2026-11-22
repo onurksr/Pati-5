@@ -1,0 +1,19 @@
+{
+  "name": "parti-odasi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gerçek zamanlı çok oyunculu parti ve trivia oyun platformu (12 oyun + Karma Mod)",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/multiplayer.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.7.5"
+  }
+}
